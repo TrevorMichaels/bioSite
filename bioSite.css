@@ -118,3 +118,8 @@ figcaption {
     font-style: italic;
     font-size: 0.75em;
 }
+
+#gallery-item figure img{
+    width: 400px;
+    height: auto;
+}
