@@ -1,0 +1,93 @@
+html{
+    background-color: #F5F9E9;
+}
+
+header {
+    background-color: #36453B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #C2C1A5;
+    border-bottom: 15px solid #596869;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #515751;
+    color: #F5F9E9;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between; /* This will ensure there's space between the two sections if desired. */
+}
+
+.gallery-section {
+    flex: 1; /* This takes up 1 part */
+    display: flex;
+    justify-content: center; /* This will center the content horizontally */
+    align-items: center;     /* This will center the content vertically */
+}
+
+.bio-section {
+    font-size: 18px;
+    flex: 2; /* This takes up 2 parts */
+    display: flex;
+    justify-content: center; /* This will center the content horizontally */
+    align-items: flex-start;     /* This will center the content vertically */
+}
+
+/* You can also style the inner contents for more precise adjustments */
+.main-content .gallery-section #image-gallery figure img {
+    width: 400px;  /* Example width, adjust as needed */
+    height: auto;  /* This will maintain the image's aspect ratio */
+}
+
+#container {
+    /* Any specific styles for the interview container can be added here */
+}
+
+.interview-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* This will stack the children vertically */
+    justify-content: center;
+    align-items: center;
+    /* Add any other styles for this section if needed */
+}
+
+/* Make each list item bold */
+li {
+    font-weight: bold;
+}
+
+/* Override the bold style for paragraphs inside list items */
+li p {
+    font-weight: normal; /* or use '400' for a numerical value */
+}
