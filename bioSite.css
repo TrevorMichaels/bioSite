@@ -92,3 +92,20 @@ li {
 li p {
     font-weight: normal; /* or use '400' for a numerical value */
 }
+
+footer{
+    color: #596869;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a{
+    color: #596869;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
